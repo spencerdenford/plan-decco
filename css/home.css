@@ -21,7 +21,7 @@ body {
     /*Positioning*/
     /*Design*/
     width: 20%;
-    padding-right: 90%;
+    margin-right: 90%;
 }
 
 #menu {
@@ -58,11 +58,9 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: large;
     color: #596875;
+    text-decoration: none;
 
     transition: 0.4s;
-    
-    text-decoration: none;
-    color: #596875;
 }
 
 .parentMenu:hover .dropdown {
@@ -106,10 +104,9 @@ body {
 #content {
     padding: 2rem;
     padding-top: 4rem;
-
 }
 
-#content a {
+/*#content a {
     padding-bottom: 1rem;
 
     opacity: 1;
@@ -118,7 +115,7 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     font-size:xx-large;
     color: #596875;
-}
+}*/
 
 .section {
     padding: 1rem;
@@ -131,7 +128,7 @@ body {
 
 /* Slideshow container */
 .slideshow {
-  max-width: 1000px;
+  max-width: 80%;
   position: relative;
   margin: auto;
 }
@@ -147,11 +144,13 @@ body {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
+  margin-top: -131px;
+  padding: 25px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #eaeaee;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 40px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -165,27 +164,18 @@ body {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #303030;
 }
 
 /* Caption text */
 .slidetext {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #eaeaee;
+  font-size: 25px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 20px;
   width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  text-align: left;
 }
 
 /* The dots/bullets/indicators */
